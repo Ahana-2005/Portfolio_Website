@@ -34,4 +34,5 @@ app.post("/contact", (req, res) => {
   res.json({ success: true, message: "Message received!" });
 });
 
+
 app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
